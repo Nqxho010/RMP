@@ -1,0 +1,37 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="formulario">
+        <img src="Images/LOGO RMP.png" style="width: 140px; height: 140px; margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+        <h1>Inicio de sesion</h1>
+        <form id="loginForm" method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Usuario</label>
+            </div>
+            <div class="contrasena">  
+                <input type="password" required>
+                <label>Contrasena</label> 
+                <br> 
+                <div class="recordar">¿Olvido su contraseña?</div>
+                <input type="submit" value="Iniciar">
+            </form>   
+        </div>
+
+        <script>
+            document.getElementById('loginForm').addEventListener('submit', function (event) {
+                event.preventDefault(); // Evita el envío predeterminado del formulario
+                window.location.href = 'file:///C:/Users/Jose/OneDrive/Documentos/RMP/inicio.html'; // Cambia esto a la ruta correcta de tu página del álbum virtual
+            });
+        </script>
+    </body>
+</html>
+
+
+  

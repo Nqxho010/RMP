@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Video Vigilancia</title>
+    <link rel="stylesheet"  href="estilos.css" />
+    <header><a href="file:///C:/Users/Jose/OneDrive/Documentos/RMP/inicio.html">
+        <img src="LOGO RMP.png"
+            style="width: 80px; height: 80px; margin-top: 1px; display: block; margin-left: auto; margin-right: auto;">
+    </a></header>
+
+
+    <!-- Java Scrip Cámara 1-->  
+    <script src="camara.js" defer></script>
+
+    <!-- Estilos CSS internos -->
+    <style>
+        /* Estilos generales del cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background-color: #f75e05;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilos para la sección principal */
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        /* Estilos para las cámaras individuales */
+        .camera {
+            width: 300px;
+            margin: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Sistema de Video Vigilancia</h1>
+    </header>
+
+    <!-- Sección principal con cámaras -->
+    <section>
+        <!-- Cámara 1 -->
+        <div class="camera camera-container">
+            <h2>Cámara 1</h2>
+            <p>Doble Click para iniciar</p>
+            <!-- Contenido de la cámara 1 con JavaScript -->
+        </div>
+
+
+        <!-- Cámara 2 -->
+        <div class="camera">
+            <h2>Cámara Delantera</h2>
+            <img src="camera2.jpg" alt="Cámara 2">
+            <p>Descripción de la cámara 2.</p>
+        </div>
+
+
+        <!-- Cámara 3 -->
+        <div class="camera">
+            <h2>Cámara Frontal</h2>
+            <img src="camera3.jpg" alt="Cámara 3">
+            <p>Doble click para iniciar</p>
+        </div>
+
+
+        <!-- Cámara 4 -->
+        <div class="camera">
+            <h2>Cámara 4</h2>
+            <img src="camera4.jpg" alt="Cámara 4">
+            <p>Doble click para iniciar</p>
+        </div>
+    </section>
+
+
+
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Rover Maintenance Point</p>
+    </footer>
+
+</body>
+
+</html>
+
